@@ -303,6 +303,7 @@ footer{
 
 .footer_text_2{
     text-align: left;
+    color: #fff;
 }
 
 .footer_text_2 span{
@@ -311,6 +312,10 @@ footer{
     font-family: 'Noto Sans KR', sans-serif;
     font-weight: 200;
     margin-right: 15px;
+}
+
+.footer_text_2 span:nth-child(3){
+    color: #fff;
 }
 
 .footer_text_2 p{
