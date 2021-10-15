@@ -318,6 +318,10 @@ footer{
     color: #fff;
 }
 
+.footer_text_2 span:nth-child(3){
+    color: #fff;
+}
+
 .footer_text_2 p{
     text-align: left;
     font-size: 11px;
@@ -563,7 +567,7 @@ footer{
 
 @media (max-width: 828px) {
     .f_width {
-        width: 100%;
+        width: 90%;
         padding-left: 20px;
     }
     .footer_text_1 span {
@@ -702,6 +706,13 @@ footer{
 @media (max-width:611px){ 
     .main_logo_text {
         top: 368px;
+    }
+}
+
+
+@media (max-width:598px){ 
+    .search {
+        margin: 0 29px;
     }
 }
 
@@ -854,6 +865,13 @@ footer{
     }
 }
 
+@media (max-width:428px){
+    .search span, .kr span {
+        color: #fff;
+        font-size: 13px;
+    }
+}
+
 @media (max-width:424px){
     .years {
         margin: 131px 0;
@@ -869,6 +887,12 @@ footer{
 @media (max-width:410px){
     .years p:nth-child(2) {
         font-size: 20px;
+    }
+}
+
+@media (max-width:409px){
+    .menu img{
+        width: 32px;
     }
 }
 
@@ -906,8 +930,20 @@ footer{
     }
 }
 
+@media (max-width:387px){
+    .menu img{
+        width: 30px;
+    }
+}
+
 @media (max-width:386px){
     .rooms .tit, .dining .tit, .meeting .tit {
         font-size: 34px;
+    }
+}
+
+@media (max-width:380px){
+    .search {
+        margin: 0 23px;
     }
 }
