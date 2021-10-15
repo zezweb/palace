@@ -947,3 +947,9 @@ footer{
         margin: 0 23px;
     }
 }
+
+@media (max-width:375px){
+    .h{
+        padding: 0 40px;
+    }
+}
