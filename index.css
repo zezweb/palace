@@ -677,6 +677,20 @@
         display: block;
     }
 }
+
+@media (max-width:520px){
+    .menulist {
+        width: 373px;
+    }
+    .menulist > ul > a {
+            font-size: 26px;
+            margin-left: 68px;
+    }
+    .menulist > ul > li {
+        margin-left: 70px;
+    }
+}
+
 @media (max-width:494px){
     .years img:nth-child(1) {
         width: 171px;
@@ -788,6 +802,26 @@
     .f_width {
         padding-left: 30px;
         margin-left: 0;
+    }
+}
+
+@media (max-width:400px){
+    .menulist{
+        width: 308px;
+    }
+    .close{
+        top: 36px;
+        right: 34px;
+    }
+    .close img {
+        width: 27px;
+    }
+    .menulist > ul > a {
+        font-size: 25px;
+        margin-left: 48px;
+    }
+    .menulist > ul > li {
+        margin-left: 52px;
     }
 }
 

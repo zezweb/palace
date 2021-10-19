@@ -38,13 +38,13 @@ a{
 
 .menulist{
     display: none;
-    position: fixed;
+    position: absolute;
     top: 0;
     left: 0;
     background: #000;
     opacity: 0.8;
     width: 500px;
-    height: 100vh;
+    height: 900px;
     padding-top: 150px;
 }
 
