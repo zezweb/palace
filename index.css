@@ -2,36 +2,6 @@
 
 @import url('common.css');
 
-.h{
-    display: flex;
-    align-items: center;
-    position: absolute;
-    top:0;
-    z-index: 1;
-    height: 100px;
-    padding: 0 50px;
-}
-
-.search{
-    margin: 0 38px;
-}
-
-.search span:nth-child(2) img{
-    margin: 6px -2px;
-}
-
-.kr span:nth-child(2) img{
-    margin: 6px 10px;
-}
-
-.search span, .kr span{
-    color: #fff;
-    font-size: 14px;
-    font-family: 'Noto Sans KR', sans-serif;
-}
-
-
-
 .main_bg{
     position: relative;
 }
@@ -57,7 +27,6 @@
 
 .main_text p{
     color: #fff;
-    
 }
 
 .main_text p:nth-child(1){
@@ -254,95 +223,8 @@
 
 /* meeting end */
 
-footer{
-    background: #000;
-    text-align: center;
-    width: 100%;
-}
 
-.f_width{
-    width: 80%;
-    margin: 0 auto;
-}
-
-.footer_family{
-    display: flex;
-    justify-content: space-between;
-    padding: 80px 0;
-    flex-wrap: wrap;
-    justify-content: left;
-}
-
-.footer_family img{
-    margin-right: 100px;
-}
-
-.f{
-    display: flex;
-    padding-bottom: 80px;
-    width: 100%;
-    flex-wrap: wrap;
-}
-
-.footer_text_1{
-    padding-bottom: 25px;
-}
-
-.footer_text_1 span{
-    font-size: 16px;
-    color: #fff;
-    font-family: 'Noto Sans KR', sans-serif;
-    margin-right: 30px;
-    font-weight: 200;
-}
-
-.footer_text_1 span:nth-child(5){
-    font-weight: 600;
-}
-
-
-.footer_text_2{
-    text-align: left;
-    color: #fff;
-}
-
-.footer_text_2 span{
-    font-size: 11px;
-    color: #fff;
-    font-family: 'Noto Sans KR', sans-serif;
-    font-weight: 200;
-    margin-right: 15px;
-}
-
-.footer_text_2 span:nth-child(3){
-    color: #fff;
-}
-
-.footer_text_2 span:nth-child(3){
-    color: #fff;
-}
-
-.footer_text_2 p{
-    text-align: left;
-    font-size: 11px;
-    color: #fff;
-    font-family: 'Noto Sans KR', sans-serif;
-    font-weight: 200;
-}
-
-.footer_logo{
-    margin-right: 200px;
-}
-
-.sns_icon{
-    margin-left: 100px;
-}
-
-.sns_icon img{
-    margin-left: 10px;
-}
-
-/* footer end */
+/* responsive start */
 
 .main_bg img:nth-child(2),
 .main_bg img:nth-child(3),
